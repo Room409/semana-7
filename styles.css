@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+    background-color: #ececec;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 413px 1fr;
+    gap: 30px;
+}
+
+.about-me-container{
+    width: 413px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.about-me{
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #ffff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.about-me img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-me h2{
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about-me p{
+    color: #828282;
+}
+
+.about-me h3{
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.about-me h4{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #828282;
+}
+
+.experiences{
+    margin-top: 70px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.experiences h2{
+    padding-top:15px;
+    margin-left: 30px;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+.experience-1{
+    display: flex;
+    padding: 20px;
+}
+.experience-1 img{
+    width: 84px;
+    height: 84px;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+.experience-1 h3{
+    font-size: 14px;
+    color: #828282;
+}
+
+.experience-1 h4{
+    color: #000000;
+    font-size: 16px;
+    margin: 14px 0;
+    font-weight: 600;
+}
+.experience-1 h5{
+    font-size: 16px;
+    color: #828282;
+    margin: 20px 0;
+}
+
+.hobbies{
+    background-color: #ffffff;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.hobbies h2{
+    font-size: 24px;
+    color: #4F4F4F;
+    margin-bottom: 30px;
+}
+.hobbies img{
+    width: 100%;
+}
+
+.hobbies h3{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.hobbies h4{
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 50px;
+}
+
+.aside-container{
+    margin-top: 30px;
+}
+
+.progress-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+}
+
+.progress-1{
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+.progress-2{
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+.progress-1 h2, .progress-2 h2{
+    font-size: 18px;
+    color: #4F4F4F;
+    font-weight: 700;
+}
+
+.bar-progress{
+    display: grid;
+    grid-template-columns: 140px 1fr;
+}
+.bar-progress p{
+    font-size: 16px;
+    color: #4F4F4F;
+}
+.bar-progress progress{
+    height: 28px;
+    width: 100%;
+}
+
+.projects{
+    width: 100%;
+    height: 66px;
+    margin-top: 66px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.projects h2{
+    font-size: 18px;
+    color: #4F4F4F;
+    padding-left: 30px;
+    line-height: 66px;
+}
+
+.projects-design{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.projects-design div:first-of-type{
+    margin: auto 0;
+}
+
+.projects-design img{
+    width: 322px;
+}
+
+.projects-design-info{
+    margin-left: 30px;
+}
+
+.projects-design-info h2{
+    font-size: 16px;
+    color: #4F4F4F;
+    margin-bottom: 30px;
+}
+
+.projects-design-info h3{
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.projects-design-info p{
+    font-size: 16px;
+    color: #828282;
+}
+
+.projects-design-info div button:first-child{
+    padding: 12px;
+    width:100%;
+    max-width: 136.27px;
+    background-color: #2F80ED;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.projects-design-info div button:last-child{
+    padding: 12px;
+    width:100%;
+    max-width: 136.27px;
+    background-color: #ffffff;
+    color: #2F80ED;
+    border-radius: 10px;
+    border: 1px solid #2F80ED;
+    font-size: 18px;
+}
+
+.blog-project{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 408px;
+    padding: 20px;
+}
+
+.blog-project h2{
+    font-size: 16px;
+    color: #E0E0E0;
+    margin-bottom: 40px;
+}
+
+.blog-project h3{
+    font-size: 24px;
+    color: #333333;
+    width: 178px;
+    margin-bottom: 35px;
+}
+
+.blog-project h4{
+    font-size: 16px;
+    color: #828282;
+    width: 318px;
+    margin-bottom: 20px;
+}
+
+.blog-project a{
+    font-size: 16px;
+    color: #2F80ED;
+}
+.blog-project img{
+    width: 100%;
+}
+
+
+@media (max-width:1200px){
+    .projects-design{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .projects-design-info{
+        margin: 0;
+    }
+   
+    .blog-project{
+        display: block;
+        text-align: center;
+        margin: 0;
+        height: 550px;
+    }
+    .blog-project div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-project h4, .blog-project h3{
+        width: 100%;
+    }
+
+    .blog-project img{
+        margin-top: 20px;
+        width: 60%
+    }
+
+}
+
+@media (max-width:992px){
+    .container{
+        display: flex;
+    }
+    .about-me h3>i{
+        display: block;
+        text-align: center;
+    }
+    .progress-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience-1{
+        display: inline-block;
+        text-align: center;
+    }
+   .experience-1 img{
+    display: block;
+    margin: 0 auto;
+   }
+   .blog-project img{
+    width: 55%
+}
+}
+
+@media (max-width:768px){
+    .container{
+        margin:0;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me h3{
+        display: flex;
+    }
+
+    .about-me h3>i{
+        margin-right: 10px;
+    }
+    .about-me-container{
+        margin: 0 auto;
+    }
+    .aside-container{
+        width: 413px;
+        margin: 0 auto;
+    }
+    .blog-project img{
+        width: 70%
+    }
+}
